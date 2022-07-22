@@ -54,13 +54,17 @@ body {
     gap: 20px;
 }
 
-.section-1 h1 {
-    margin: 0px;
+.intro-title {
+    margin-bottom: 20px;
     font-size: 48px;
 }
 
+.intro-description {
+    margin-bottom: 30px;
+}
+
 .intro-container {
-    flex: 1;
+    width: 600px;
 }
 
 .intro-container p {
@@ -68,8 +72,7 @@ body {
 }
 
 .intro-image {
-    flex: 1;
-    max-width: 50%;
+    width: 600px;
 }
 
 .signup-btn {
@@ -152,11 +155,11 @@ body {
 }
 
 .action-description {
-    margin-top: 5px;
-    margin-bottom: 0px;
+    margin: 0px;
 }
 
 .action-heading {
+    margin-bottom: 5px;
     font-size: 25px;
 }
 
