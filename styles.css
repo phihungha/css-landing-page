@@ -1,5 +1,5 @@
 * {
-    font-family: Helvetica, sans-serif;
+    font-family: 'Roboto', Helvetica, sans-serif;
 }
 
 a {
@@ -16,7 +16,7 @@ body {
     margin: 0px;
 }
 
-.header, .section-1 {
+.header, .section-1, .section-5  {
     color: white;
     background-color: #1F2937;
 }
@@ -131,4 +131,36 @@ body {
     text-align: right;
     font-size: 27px;
     font-weight: bold;
+}
+
+.section-4 {
+    padding: 100px 200px;
+}
+
+.white-border-btn {
+    border: 2px solid white;
+}
+
+.action-container {
+    padding: 50px 130px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-description {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.action-heading {
+    font-size: 25px;
+}
+
+.section-5 {
+    padding: 25px 30px;
+    text-align: center;
 }
